@@ -46,8 +46,8 @@ public class thu implements ActionListener, Runnable{
 		l1=new JLabel();  
 		this.kind = kind;
 		// Put them in the place you want on the container
-    	// Block the chat screen so it only be used to display texts
-    	chatScreen.setBounds(20, 30, 400, 250);
+    		// Block the chat screen so it only be used to display texts
+    		chatScreen.setBounds(20, 30, 400, 250);
 		chatScreen.setEditable(false);
 		chatBox.setBounds(20,300, 400, 55);
 		sendButton.setBounds(430, 300, 70, 50);
